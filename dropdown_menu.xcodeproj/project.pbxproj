@@ -13,17 +13,17 @@
 		93DF8FE32638F1FC00C7B255 /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DF8FDE2638F1FC00C7B255 /* libsfml-window.2.5.1.dylib */; };
 		93DF8FE42638F1FC00C7B255 /* libsfml-system.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DF8FDF2638F1FC00C7B255 /* libsfml-system.2.5.1.dylib */; };
 		93DF8FE52638F1FC00C7B255 /* libsfml-graphics.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DF8FE02638F1FC00C7B255 /* libsfml-graphics.2.5.1.dylib */; };
-		93DF8FEB2638F23900C7B255 /* OpenSans-Bold.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93DF8FE72638F23900C7B255 /* OpenSans-Bold.ttf */; };
-		93DF8FEC2638F23900C7B255 /* list.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93DF8FE82638F23900C7B255 /* list.h */; };
-		93DF8FEE2638F23900C7B255 /* linked_list.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93DF8FEA2638F23900C7B255 /* linked_list.h */; };
 		93DF8FF82638F5D100C7B255 /* InputBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DF8FF62638F5D100C7B255 /* InputBox.cpp */; };
 		93DF8FFC2639236C00C7B255 /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DF8FFA2639236C00C7B255 /* Item.cpp */; };
 		93DF900526392DDC00C7B255 /* States.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93DF900326392DDC00C7B255 /* States.cpp */; };
+		93F44D2C263A893400A6E6BC /* linked_list.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F44D2A263A88EF00A6E6BC /* linked_list.h */; };
+		93F44D2D263A893400A6E6BC /* list.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F44D28263A88EF00A6E6BC /* list.h */; };
+		93F44D2E263A893400A6E6BC /* OpenSans-Bold.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F44D29263A88EF00A6E6BC /* OpenSans-Bold.ttf */; };
+		93F44D2F263A893400A6E6BC /* stack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93F44D27263A88D900A6E6BC /* stack.h */; };
 		93FACF3D2639B09800FACBED /* ItemList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93FACF3B2639B09800FACBED /* ItemList.cpp */; };
 		93FACF42263A5D5700FACBED /* DropdownMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93FACF40263A5D5700FACBED /* DropdownMenu.cpp */; };
 		93FACF46263A701E00FACBED /* Snapshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93FACF44263A701E00FACBED /* Snapshot.cpp */; };
 		93FACF4D263A722000FACBED /* History.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93FACF4B263A722000FACBED /* History.cpp */; };
-		93FACF51263A723B00FACBED /* stack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93FACF50263A723B00FACBED /* stack.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,10 +33,10 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				93FACF51263A723B00FACBED /* stack.h in CopyFiles */,
-				93DF8FEB2638F23900C7B255 /* OpenSans-Bold.ttf in CopyFiles */,
-				93DF8FEC2638F23900C7B255 /* list.h in CopyFiles */,
-				93DF8FEE2638F23900C7B255 /* linked_list.h in CopyFiles */,
+				93F44D2C263A893400A6E6BC /* linked_list.h in CopyFiles */,
+				93F44D2D263A893400A6E6BC /* list.h in CopyFiles */,
+				93F44D2E263A893400A6E6BC /* OpenSans-Bold.ttf in CopyFiles */,
+				93F44D2F263A893400A6E6BC /* stack.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -50,9 +50,6 @@
 		93DF8FDE2638F1FC00C7B255 /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.5.1.dylib"; path = "ExternalLibrary/SFML/lib/libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
 		93DF8FDF2638F1FC00C7B255 /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.5.1.dylib"; path = "ExternalLibrary/SFML/lib/libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
 		93DF8FE02638F1FC00C7B255 /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.5.1.dylib"; path = "ExternalLibrary/SFML/lib/libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
-		93DF8FE72638F23900C7B255 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
-		93DF8FE82638F23900C7B255 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
-		93DF8FEA2638F23900C7B255 /* linked_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linked_list.h; sourceTree = "<group>"; };
 		93DF8FF62638F5D100C7B255 /* InputBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputBox.cpp; sourceTree = "<group>"; };
 		93DF8FF72638F5D100C7B255 /* InputBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputBox.hpp; sourceTree = "<group>"; };
 		93DF8FFA2639236C00C7B255 /* Item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
@@ -60,6 +57,10 @@
 		93DF8FFF26392A0300C7B255 /* MouseEvents.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MouseEvents.hpp; sourceTree = "<group>"; };
 		93DF900326392DDC00C7B255 /* States.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = States.cpp; sourceTree = "<group>"; };
 		93DF900426392DDC00C7B255 /* States.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = States.hpp; sourceTree = "<group>"; };
+		93F44D27263A88D900A6E6BC /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		93F44D28263A88EF00A6E6BC /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		93F44D29263A88EF00A6E6BC /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		93F44D2A263A88EF00A6E6BC /* linked_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linked_list.h; sourceTree = "<group>"; };
 		93FACF3B2639B09800FACBED /* ItemList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ItemList.cpp; sourceTree = "<group>"; };
 		93FACF3C2639B09800FACBED /* ItemList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ItemList.hpp; sourceTree = "<group>"; };
 		93FACF40263A5D5700FACBED /* DropdownMenu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DropdownMenu.cpp; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		93FACF4A263A70AD00FACBED /* GUIComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GUIComponent.hpp; sourceTree = "<group>"; };
 		93FACF4B263A722000FACBED /* History.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = History.cpp; sourceTree = "<group>"; };
 		93FACF4C263A722000FACBED /* History.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = History.hpp; sourceTree = "<group>"; };
-		93FACF50263A723B00FACBED /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +93,6 @@
 		93DF8FC62638F12E00C7B255 = {
 			isa = PBXGroup;
 			children = (
-				93FACF50263A723B00FACBED /* stack.h */,
-				93DF8FEA2638F23900C7B255 /* linked_list.h */,
-				93DF8FE82638F23900C7B255 /* list.h */,
-				93DF8FE72638F23900C7B255 /* OpenSans-Bold.ttf */,
 				93DF8FD12638F12E00C7B255 /* dropdown_menu */,
 				93DF8FD02638F12E00C7B255 /* Products */,
 				93DF8FDB2638F1FB00C7B255 /* Frameworks */,
@@ -114,6 +110,10 @@
 		93DF8FD12638F12E00C7B255 /* dropdown_menu */ = {
 			isa = PBXGroup;
 			children = (
+				93F44D2A263A88EF00A6E6BC /* linked_list.h */,
+				93F44D28263A88EF00A6E6BC /* list.h */,
+				93F44D29263A88EF00A6E6BC /* OpenSans-Bold.ttf */,
+				93F44D27263A88D900A6E6BC /* stack.h */,
 				93DF8FD22638F12E00C7B255 /* main.cpp */,
 				93DF8FF62638F5D100C7B255 /* InputBox.cpp */,
 				93DF8FF72638F5D100C7B255 /* InputBox.hpp */,

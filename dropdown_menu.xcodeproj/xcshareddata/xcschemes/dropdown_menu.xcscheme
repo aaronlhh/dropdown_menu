@@ -36,7 +36,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/aaron/project/C++008/dropdown_menu/dropdown_menu"
+      customWorkingDirectory = "/Users/aaron/project/C++008/dropdown_menu/dropdown_menu/dropdown_menu"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
