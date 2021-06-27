@@ -24,11 +24,10 @@ public:
     string getText();
     void setSize(float x, float y);
     void setPosition(float x, float y);
-    void addEventHandler(sf::RenderWindow& window, sf::Event event);
     void draw(sf::RenderTarget& window, sf::RenderStates states) const;
     
 private:
-    sf::Font font;
+//    sf::Font font;
     sf::Text text;
     sf::RectangleShape box;
 };

@@ -21,6 +21,7 @@ public:
     void remove(string item);   // delete an item with msg == item
     void addEventHandler(sf::RenderWindow& window, sf::Event event);
     void draw(sf::RenderTarget& window, sf::RenderStates states) const;
+    sf::FloatRect getLocalBounds() const;
     string getClicked();
     
     

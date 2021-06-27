@@ -9,6 +9,7 @@
 
 std::map<States::ObjectState, bool> States::states;
 sf::Font States::font;
+
 bool States::loadFont = false;
 
 States::States(){

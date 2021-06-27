@@ -146,13 +146,13 @@ list<T> :: ~list(){
 
 template <typename T>
 list<T> :: list(const list<T> &copyThis){
-    _head = _copy_list(copyThis._head);
+    _head = _copy_list(_head, copyThis._head);
 }
 
 template <typename T>
 list<T>& list<T> :: operator =(const list& rhs){
     _clear_list(_head);
-    _head = _copy_list(rhs._head);
+    _head = _copy_list(_head, rhs._head);
 }
 
 template <typename T>

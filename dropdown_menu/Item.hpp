@@ -20,7 +20,7 @@ public:
     Item(string msg);
     Item();
     void setText(string msg);
-    sf::FloatRect getLocalBounds();
+    sf::FloatRect getLocalBounds() const;
     void setSize(float x, float y);
     void setPosition(float x, float y);
     void draw(sf::RenderTarget& window, sf::RenderStates states) const;
@@ -31,7 +31,6 @@ public:
 //    sf::FloatRect getBounds();
     
 private:
-    sf::Font font;
     sf::Text text;
     sf::RectangleShape box;
     

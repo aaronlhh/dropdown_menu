@@ -25,6 +25,8 @@ public:
     void draw(sf::RenderTarget& window, sf::RenderStates states) const;
     void addEventHandler(sf::RenderWindow& window, sf::Event event);
     void update();
+    sf::Vector2f getPosition();
+    sf::FloatRect getLocalBounds();
     Snapshot& getSnapshot();
     void applySnapshot(const Snapshot& snapshot);
     

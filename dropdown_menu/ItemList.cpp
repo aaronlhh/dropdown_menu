@@ -30,7 +30,6 @@ ItemList::ItemList(vector<string> vec){
     word = "";
 }
 
-
 void ItemList::setPosition(float x, float y){
     int index = 0;
     for(list<Item>::Iterator i = itemlist.begin(); i != itemlist.end(); ++i){
@@ -82,6 +81,16 @@ void ItemList::remove(string item){
         }
     }
     setPosition(getPosition().x, getPosition().y);
+}
+
+sf::FloatRect ItemList::getLocalBounds() const{
+    sf::FloatRect rec = itemlist.begin()->getLocalBounds();
+    int count = 0;
+    for(list<Item>::Iterator i = itemlist.begin(); i < itemlist.end(); ++i){
+        count++;
+    }
+    rec.height *= count;
+    return rec;
 }
 
 

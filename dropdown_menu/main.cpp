@@ -10,11 +10,12 @@
 #include <SFML/Graphics.hpp>
 #include "DropdownMenu.hpp"
 
+
 int main() {
     sf::RenderWindow window(sf::VideoMode(1200, 1000), "dropdown");
     vector<string> vec{"abcdef", "Apples", "Bananas", "Hello", "Hello World!"};
     DropdownMenu menu(vec);
-    menu.setPosition(100, 100);
+    
     while(window.isOpen()){
         sf::Event event;
         while(window.pollEvent(event)){

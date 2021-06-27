@@ -103,3 +103,20 @@ void DropdownMenu::applySnapshot(const Snapshot& snapshot){
     box.setText(other);
     setPosition(x, y);
 }
+
+sf::Vector2f DropdownMenu::getPosition(){
+    sf::Vector2f vec;
+    vec.x = this->x;
+    vec.y = this->y;
+    return vec;
+}
+
+sf::FloatRect DropdownMenu::getLocalBounds(){
+    sf::Vector2f vec = getPosition();
+    sf::FloatRect rec;
+    rec.top = vec.y;
+    rec.left = vec.x;
+    rec.width = box.getLocalBounds().width;
+    rec.height = box.getLocalBounds().height + 5 + menu.getLocalBounds().height;
+    return rec;
+}

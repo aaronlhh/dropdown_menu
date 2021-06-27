@@ -36,12 +36,13 @@ Item::Item()
 }
 
 
+
 void Item::setText(string msg){
     text.setString(msg);
 }
 
 
-sf::FloatRect Item::getLocalBounds(){
+sf::FloatRect Item::getLocalBounds() const{
     return box.getGlobalBounds();
 }
 
@@ -79,6 +80,7 @@ string Item::getText() const{
 bool Item::operator==(const Item& other){
     return getText() == other.getText();
 }
+
 
 //void Item::setFont(sf::Font font){
 //    text.setFont(font);
